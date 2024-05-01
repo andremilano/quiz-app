@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Pages</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#BA955C] h-screen flex items-center justify-center ">
+
+    <div class=" mx-auto bg-slate-100 p-8 rounded-lg shadow-lg w-1/2 backdrop-blur-sm">
+        <div class="mb-6 bg-[#BA955C] rounded-lg h-20 flex items-center justify-center">
+            <div id="question" class="text-xl font-semibold text-white"></div>
+        </div>
+
+        <div id="options" class=""></div>
+        <div class="flex justify-between">
+            <div>
+                <button id="restartButton"
+                    class="mt-4 bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded">Restart</button>
+            </div>
+            <div>
+                <button id="homeButton"
+                    class="mt-4 bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded">Home</button>
+            </div>
+            <div>
+                <button id="nextButton"
+                    class="mt-4 bg-[#BA955C] hover:bg-gray-700 text-white font-semibolds py-2 px-4 rounded">Berikutnya</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>

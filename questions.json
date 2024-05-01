@@ -1,0 +1,23 @@
+{
+    "questions": [
+      {
+        "question": "Apa Singkatan dari HTML?",
+        "options": ["Hyperlink Text Markup Language", 
+                    "Hypertext Markup Language",
+                    "Hyperlink Text Manipulation Language",
+                    "HyperText Markdown Language"],
+        "correctIndex": 1
+      },
+      {
+        "question": "bagaimana mengidentifikasi content di HTML",
+        "options": ["Script", "Style", "Tag", "Element"],
+        "correctIndex": 0
+      },
+      {
+        "question": "tag apa untuk membuka dokumen html",
+        "options": ["html", "head", "body", "title"],
+        "correctIndex": 1
+      }
+    ]
+  }
+  
